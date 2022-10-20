@@ -60,9 +60,13 @@ sys/types.h
 unistd.h
 -
 
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.cpp
 iostream
 -
+HttpParser.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.h
 HTTPRequest.hpp
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTPRequest.hpp
+
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.h
 

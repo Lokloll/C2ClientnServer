@@ -74,12 +74,12 @@ clean: CMakeFiles/C2CLIClient.dir/clean
 CMakeFiles/C2CLIClient.dir/all:
 	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/depend
 	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles --progress-num=1,2 "Built target C2CLIClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles --progress-num=1,2,3 "Built target C2CLIClient"
 .PHONY : CMakeFiles/C2CLIClient.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C2CLIClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/C2CLIClient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles 0
 .PHONY : CMakeFiles/C2CLIClient.dir/rule

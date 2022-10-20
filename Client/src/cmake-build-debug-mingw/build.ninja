@@ -55,6 +55,12 @@ build CMakeFiles/C2CLIClient.dir/main.cpp.obj: CXX_COMPILER__C2CLIClient_Debug C
   OBJECT_DIR = CMakeFiles\C2CLIClient.dir
   OBJECT_FILE_DIR = CMakeFiles\C2CLIClient.dir
 
+build CMakeFiles/C2CLIClient.dir/HttpParser.cpp.obj: CXX_COMPILER__C2CLIClient_Debug C$:/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.cpp || cmake_object_order_depends_target_C2CLIClient
+  DEP_FILE = CMakeFiles\C2CLIClient.dir\HttpParser.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\C2CLIClient.dir
+  OBJECT_FILE_DIR = CMakeFiles\C2CLIClient.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C2CLIClient
@@ -63,7 +69,7 @@ build CMakeFiles/C2CLIClient.dir/main.cpp.obj: CXX_COMPILER__C2CLIClient_Debug C
 #############################################
 # Link the executable C2CLIClient.exe
 
-build C2CLIClient.exe: CXX_EXECUTABLE_LINKER__C2CLIClient_Debug CMakeFiles/C2CLIClient.dir/main.cpp.obj
+build C2CLIClient.exe: CXX_EXECUTABLE_LINKER__C2CLIClient_Debug CMakeFiles/C2CLIClient.dir/main.cpp.obj CMakeFiles/C2CLIClient.dir/HttpParser.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C2CLIClient.dir

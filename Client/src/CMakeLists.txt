@@ -3,4 +3,4 @@ project(C2Client)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(C2CLIClient main.cpp)
+add_executable(C2CLIClient main.cpp HttpParser.cpp HttpParser.h)
