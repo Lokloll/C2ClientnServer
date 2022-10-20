@@ -12,8 +12,8 @@ int main(int mode, char** argv) {
 
     cout << endl;
     string out = ExecCLIFunction::exec("ls -al");
-
     cout <<out;
+    cout << "hello "<< endl;
 
 
 
