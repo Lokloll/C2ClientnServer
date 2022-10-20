@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h">
+			<Option target="C2CLIClient"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.cpp">
 			<Option target="C2CLIClient"/>
 		</Unit>
