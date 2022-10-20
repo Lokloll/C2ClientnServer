@@ -8,7 +8,7 @@ using namespace std;
 
 class HttpParser {
     public:
-        static char* ParseResponse(/*char* addr*/);
+        static char* ParseResponse();
 
 };
 

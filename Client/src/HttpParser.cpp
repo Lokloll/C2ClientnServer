@@ -5,7 +5,7 @@
 #include "HttpParser.h"
 #include "HTTPRequest.hpp"
 
-char* HttpParser::ParseResponse(/*char* addr*/) {
+char* HttpParser::ParseResponse() {
     char* output;
     cout<< "methexec"<<endl;
     try
