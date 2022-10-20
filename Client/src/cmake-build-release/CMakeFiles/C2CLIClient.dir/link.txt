@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/C2CLIClient.dir/main.cpp.o  -o C2CLIClient 

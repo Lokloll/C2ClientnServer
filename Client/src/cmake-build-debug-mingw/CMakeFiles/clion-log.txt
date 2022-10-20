@@ -1,0 +1,4 @@
+C:\Users\nicla\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/nicla/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/ninja/win/ninja.exe -G Ninja -S C:\Users\nicla\GolandProjects\CSControlServer\Client\src -B C:\Users\nicla\GolandProjects\CSControlServer\Client\src\cmake-build-debug-mingw
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-mingw

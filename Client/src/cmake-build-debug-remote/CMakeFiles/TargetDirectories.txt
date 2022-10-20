@@ -1,0 +1,3 @@
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles/edit_cache.dir
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles/C2CLIClient.dir
