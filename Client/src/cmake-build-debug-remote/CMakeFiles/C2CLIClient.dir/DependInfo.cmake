@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.cpp" "/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.o"
   "/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.cpp" "/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o"
   "/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp" "/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles/C2CLIClient.dir/main.cpp.o"
   )

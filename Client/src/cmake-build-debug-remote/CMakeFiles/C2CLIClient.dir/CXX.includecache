@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h
-iostream
--
-stdexcept
--
-stdio.h
--
-string
--
-
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTPRequest.hpp
 cctype
 -
@@ -70,6 +60,16 @@ sys/types.h
 unistd.h
 -
 
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.cpp
+string
+-
+ResponseParser.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.h
+
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.h
+string
+-
+
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.cpp
 iostream
 -
@@ -77,18 +77,8 @@ SendRequest.h
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h
 HTTPRequest.hpp
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTPRequest.hpp
+ResponseParser.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.h
 
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h
-
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp
-iostream
--
-SendRequest.h
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h
-ExecCLIFunction.h
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h
-chrono
--
-thread
--
 

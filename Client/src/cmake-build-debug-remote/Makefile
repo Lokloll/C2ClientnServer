@@ -123,6 +123,33 @@ C2CLIClient/fast:
 	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/build
 .PHONY : C2CLIClient/fast
 
+ResponseParser.o: ResponseParser.cpp.o
+
+.PHONY : ResponseParser.o
+
+# target to build an object file
+ResponseParser.cpp.o:
+	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.o
+.PHONY : ResponseParser.cpp.o
+
+ResponseParser.i: ResponseParser.cpp.i
+
+.PHONY : ResponseParser.i
+
+# target to preprocess a source file
+ResponseParser.cpp.i:
+	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.i
+.PHONY : ResponseParser.cpp.i
+
+ResponseParser.s: ResponseParser.cpp.s
+
+.PHONY : ResponseParser.s
+
+# target to generate assembly for a file
+ResponseParser.cpp.s:
+	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.s
+.PHONY : ResponseParser.cpp.s
+
 SendRequest.o: SendRequest.cpp.o
 
 .PHONY : SendRequest.o
@@ -186,6 +213,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C2CLIClient"
+	@echo "... ResponseParser.o"
+	@echo "... ResponseParser.i"
+	@echo "... ResponseParser.s"
 	@echo "... SendRequest.o"
 	@echo "... SendRequest.i"
 	@echo "... SendRequest.s"

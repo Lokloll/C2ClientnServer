@@ -4,7 +4,7 @@
 #include <iostream>
 #include "SendRequest.h"
 #include "HTTPRequest.hpp"
-
+#include "ResponseParser.h"
 char* HttpParser::ParseResponse() {
     char* output;
     cout<< "methexec"<<endl;
@@ -24,5 +24,6 @@ char* HttpParser::ParseResponse() {
     {
         output += *e.what();
     }
+    cout << output <<endl;
     return output;
 }
