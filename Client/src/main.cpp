@@ -10,13 +10,14 @@ using namespace std;
 
 int main() {
 
+    string out;
     while(1==1){
         string response = HttpParser::ParseResponse();
-        string out = ExecCLIFunction::exec(response);
-        cout << out <<endl;
         if (out == "exit")
             break;
-
+        else
+            out = ExecCLIFunction::exec(response);
+        cout << out <<endl;
         this_thread::sleep_for(chrono::milliseconds(10000) );
 
     }

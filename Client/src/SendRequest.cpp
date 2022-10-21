@@ -5,8 +5,8 @@
 #include "SendRequest.h"
 #include "HTTPRequest.hpp"
 #include "ResponseParser.h"
-char* HttpParser::ParseResponse() {
-    char* output;
+string HttpParser::ParseResponse() {
+    string output;
     cout<< "methexec"<<endl;
     try
     {
@@ -15,15 +15,14 @@ char* HttpParser::ParseResponse() {
 
         // send a get request
         const auto response = request.send("GET");
-        string responsestr = {response.body.begin(), response.body.end()};
+        output = {response.body.begin(), response.body.end()};
 
-        output = new char[responsestr.length()+1];
-        strcpy(output, responsestr.c_str());
+
     }
     catch (const std::exception& e)
     {
         output += *e.what();
     }
     cout << output <<endl;
-    return output;
+    return ResponseParser::ParseBasicCMD(output);
 }

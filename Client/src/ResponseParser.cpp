@@ -3,10 +3,18 @@
 //
 #include <string>
 #include "ResponseParser.h"
+#include <iostream>
 using namespace std;
 
 std::string ResponseParser::ParseBasicCMD(string input) {
-    int num = stoi(input);
+    int num = 00;
+    try {
+        num = stoi(input);
+    }
+    catch (const std::exception& exception)
+    {
+        return "exit";
+    }
     switch (num) {
         case 00:
             return "sleep 10";
@@ -19,6 +27,7 @@ std::string ResponseParser::ParseBasicCMD(string input) {
         case 04:
             return "ip a";
     }
+    cout << "sleep 5" <<endl;
     return "sleep 5";
 
 }
