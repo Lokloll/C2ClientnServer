@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/C2Client.iml" filepath="$PROJECT_DIR$/.idea/C2Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CSControlServer.iml" filepath="$PROJECT_DIR$/.idea/CSControlServer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/CSControlServer2.iml" filepath="$PROJECT_DIR$/.idea/CSControlServer2.iml" />
     </modules>
   </component>
 </project>
