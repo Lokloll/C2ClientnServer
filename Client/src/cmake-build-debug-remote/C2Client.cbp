@@ -85,10 +85,10 @@
 		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h">
 			<Option target="C2CLIClient"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.cpp">
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.cpp">
 			<Option target="C2CLIClient"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.h">
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h">
 			<Option target="C2CLIClient"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp">

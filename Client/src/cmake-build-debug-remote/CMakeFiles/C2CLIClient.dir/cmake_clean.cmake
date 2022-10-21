@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "C2CLIClient"
   "C2CLIClient.pdb"
-  "CMakeFiles/C2CLIClient.dir/HttpParser.cpp.o"
+  "CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o"
   "CMakeFiles/C2CLIClient.dir/main.cpp.o"
 )
 

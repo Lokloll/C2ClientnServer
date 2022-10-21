@@ -123,32 +123,32 @@ C2CLIClient/fast:
 	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/build
 .PHONY : C2CLIClient/fast
 
-HttpParser.o: HttpParser.cpp.o
+SendRequest.o: SendRequest.cpp.o
 
-.PHONY : HttpParser.o
+.PHONY : SendRequest.o
 
 # target to build an object file
-HttpParser.cpp.o:
-	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/HttpParser.cpp.o
-.PHONY : HttpParser.cpp.o
+SendRequest.cpp.o:
+	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o
+.PHONY : SendRequest.cpp.o
 
-HttpParser.i: HttpParser.cpp.i
+SendRequest.i: SendRequest.cpp.i
 
-.PHONY : HttpParser.i
+.PHONY : SendRequest.i
 
 # target to preprocess a source file
-HttpParser.cpp.i:
-	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/HttpParser.cpp.i
-.PHONY : HttpParser.cpp.i
+SendRequest.cpp.i:
+	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/SendRequest.cpp.i
+.PHONY : SendRequest.cpp.i
 
-HttpParser.s: HttpParser.cpp.s
+SendRequest.s: SendRequest.cpp.s
 
-.PHONY : HttpParser.s
+.PHONY : SendRequest.s
 
 # target to generate assembly for a file
-HttpParser.cpp.s:
-	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/HttpParser.cpp.s
-.PHONY : HttpParser.cpp.s
+SendRequest.cpp.s:
+	$(MAKE) -f CMakeFiles/C2CLIClient.dir/build.make CMakeFiles/C2CLIClient.dir/SendRequest.cpp.s
+.PHONY : SendRequest.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C2CLIClient"
-	@echo "... HttpParser.o"
-	@echo "... HttpParser.i"
-	@echo "... HttpParser.s"
+	@echo "... SendRequest.o"
+	@echo "... SendRequest.i"
+	@echo "... SendRequest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
