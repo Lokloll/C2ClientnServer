@@ -1,0 +1,17 @@
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\bin\Debug\net6.0-windows\C2ClientRequestClient.exe
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\bin\Debug\net6.0-windows\C2ClientRequestClient.deps.json
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\bin\Debug\net6.0-windows\C2ClientRequestClient.runtimeconfig.json
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\bin\Debug\net6.0-windows\C2ClientRequestClient.dll
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\bin\Debug\net6.0-windows\C2ClientRequestClient.pdb
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.csproj.AssemblyReference.cache
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.Form1.resources
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.csproj.GenerateResource.cache
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.AssemblyInfoInputs.cache
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.AssemblyInfo.cs
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.csproj.CoreCompileInputs.cache
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.dll
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\refint\C2ClientRequestClient.dll
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.pdb
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\C2ClientRequestClient.genruntimeconfig.cache
+C:\Users\nicla\GolandProjects\CSControlServer\CSharpWpf\C2ClientRequestClient\C2ClientRequestClient\obj\Debug\net6.0-windows\ref\C2ClientRequestClient.dll

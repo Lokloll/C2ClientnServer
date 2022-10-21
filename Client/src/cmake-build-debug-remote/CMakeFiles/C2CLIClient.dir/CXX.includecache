@@ -70,21 +70,21 @@ sys/types.h
 unistd.h
 -
 
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.cpp
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.cpp
 iostream
 -
-HttpParser.h
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.h
+SendRequest.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h
 HTTPRequest.hpp
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTPRequest.hpp
 
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h
 
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp
 iostream
 -
-HttpParser.h
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HttpParser.h
+SendRequest.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h
 ExecCLIFunction.h
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h
 chrono
