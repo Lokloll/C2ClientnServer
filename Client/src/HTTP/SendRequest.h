@@ -6,7 +6,7 @@
 #define C2CLIENT_HTTPPARSER_H
 using namespace std;
 
-class HttpParser {
+class SendRequest {
     public:
         static string ParseResponse();
 

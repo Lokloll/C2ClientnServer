@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	responsecmd := "echo test"
+	responsecmd := "01"
 	app := fiber.New()
 
 	app.Post("/", func(ctx *fiber.Ctx) error {

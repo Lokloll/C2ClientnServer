@@ -2,17 +2,19 @@
 // Created by nicla on 20.10.2022.
 //
 #include <iostream>
-#include "SendRequest.h"
+#include "HTTP/SendRequest.h"
 #include "ExecCLIFunction.h"
 #include <chrono>
 #include <thread>
+#include <fstream>
+
 using namespace std;
 
 int main() {
-
     string out;
+
     while(1==1){
-        string response = HttpParser::ParseResponse();
+        string response = SendRequest::ParseResponse();
         if (out == "exit")
             break;
         else

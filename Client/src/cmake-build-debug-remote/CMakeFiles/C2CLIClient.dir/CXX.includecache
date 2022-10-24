@@ -16,17 +16,19 @@ stdio.h
 string
 -
 
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.h
 
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp
 iostream
 -
-SendRequest.h
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h
+HTTP/SendRequest.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.h
 ExecCLIFunction.h
 /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h
 chrono
 -
 thread
+-
+fstream
 -
 

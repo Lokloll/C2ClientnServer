@@ -70,44 +70,44 @@ CMakeFiles/C2CLIClient.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C2CLIClient.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp -o CMakeFiles/C2CLIClient.dir/main.cpp.s
 
-CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o: CMakeFiles/C2CLIClient.dir/flags.make
-CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o: ../SendRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o -c /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.cpp
+CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.o: CMakeFiles/C2CLIClient.dir/flags.make
+CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.o: ../HTTP/SendRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.o -c /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.cpp
 
-CMakeFiles/C2CLIClient.dir/SendRequest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C2CLIClient.dir/SendRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.cpp > CMakeFiles/C2CLIClient.dir/SendRequest.cpp.i
+CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.cpp > CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.i
 
-CMakeFiles/C2CLIClient.dir/SendRequest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C2CLIClient.dir/SendRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.cpp -o CMakeFiles/C2CLIClient.dir/SendRequest.cpp.s
+CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.cpp -o CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.s
 
-CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.o: CMakeFiles/C2CLIClient.dir/flags.make
-CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.o: ../ResponseParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.o -c /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.cpp
+CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.o: CMakeFiles/C2CLIClient.dir/flags.make
+CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.o: ../HTTP/ResponseParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.o -c /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/ResponseParser.cpp
 
-CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.cpp > CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.i
+CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/ResponseParser.cpp > CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.i
 
-CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.cpp -o CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.s
+CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/ResponseParser.cpp -o CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.s
 
 # Object files for target C2CLIClient
 C2CLIClient_OBJECTS = \
 "CMakeFiles/C2CLIClient.dir/main.cpp.o" \
-"CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o" \
-"CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.o"
+"CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.o" \
+"CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.o"
 
 # External object files for target C2CLIClient
 C2CLIClient_EXTERNAL_OBJECTS =
 
 C2CLIClient: CMakeFiles/C2CLIClient.dir/main.cpp.o
-C2CLIClient: CMakeFiles/C2CLIClient.dir/SendRequest.cpp.o
-C2CLIClient: CMakeFiles/C2CLIClient.dir/ResponseParser.cpp.o
+C2CLIClient: CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.o
+C2CLIClient: CMakeFiles/C2CLIClient.dir/HTTP/ResponseParser.cpp.o
 C2CLIClient: CMakeFiles/C2CLIClient.dir/build.make
 C2CLIClient: CMakeFiles/C2CLIClient.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/cmake-build-debug-remote/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable C2CLIClient"

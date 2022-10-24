@@ -85,16 +85,16 @@
 		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h">
 			<Option target="C2CLIClient"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.cpp">
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/ResponseParser.cpp">
 			<Option target="C2CLIClient"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ResponseParser.h">
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/ResponseParser.h">
 			<Option target="C2CLIClient"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.cpp">
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.cpp">
 			<Option target="C2CLIClient"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/SendRequest.h">
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.h">
 			<Option target="C2CLIClient"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp">
