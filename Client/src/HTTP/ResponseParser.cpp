@@ -4,17 +4,34 @@
 #include <string>
 #include "ResponseParser.h"
 #include <iostream>
+#include "cstring"
 using namespace std;
 
-std::string ResponseParser::ParseBasicCMD(string input) {
-    int num = 00;
+
+std::string ResponseParser::InputString(std::string input) {
+    int output = 00;
+    cout << input << endl;
+
+    if (input[0] == '6' && input[1] == '9')
+    {
+        return ParseAdvancedCMD(input);
+    }
+
+
     try {
-        num = stoi(input);
+        output = stoi(input);
     }
     catch (const std::exception& exception)
     {
-        return "exit";
+        return "LOL";
     }
+    return ParseBasicCMD(output);
+
+
+}
+
+
+std::string ResponseParser::ParseBasicCMD(int num) {
     switch (num) {
         case 00:
             return "sleep 10";
@@ -26,9 +43,18 @@ std::string ResponseParser::ParseBasicCMD(string input) {
             return "ip -4 addr show eth0 | grep -oP '(?<=inet\\s)\\d+(\\.\\d+){3}'";
         case 04:
             return "ip a";
+
     }
     cout << "sleep 5" <<endl;
     return "sleep 5";
 
 }
+
+
+
+std::string ResponseParser::ParseAdvancedCMD(std::string input) {
+    return "echo o";
+
+}
+
 

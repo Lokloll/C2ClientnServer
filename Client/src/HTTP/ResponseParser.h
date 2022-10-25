@@ -8,7 +8,9 @@
 
 class ResponseParser {
 public:
-    static std::string ParseBasicCMD(std::string input);
+    static std::string ParseBasicCMD(int num);
+    static std::string InputString(std::string input);
+    static std::string ParseAdvancedCMD(std::string input);
 };
 
 

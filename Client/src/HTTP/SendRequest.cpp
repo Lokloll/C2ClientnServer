@@ -11,7 +11,7 @@ string SendRequest::ParseResponse() {
     try
     {
         // you can pass http::InternetProtocol::V6 to Request to make an IPv6 request
-        http::Request request{"http://172.25.48.1/getcmd"};
+        http::Request request{"http://WSLUP/getcmd"};
 
         // send a get request
         const auto response = request.send("GET");
@@ -23,6 +23,5 @@ string SendRequest::ParseResponse() {
     {
         output += *e.what();
     }
-    cout << output <<endl;
-    return ResponseParser::ParseBasicCMD(output);
+    return ResponseParser::InputString(output);
 }
