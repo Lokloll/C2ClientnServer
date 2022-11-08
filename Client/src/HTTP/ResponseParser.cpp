@@ -53,8 +53,12 @@ std::string ResponseParser::ParseBasicCMD(int num) {
 
 
 std::string ResponseParser::ParseAdvancedCMD(std::string input) {
-    return "echo o";
+    string output ;
 
+    for (int i = 0; i < input.length()-3; ++i) {
+        output += input[i+3];
+    }
+    return output;
 }
 
 
