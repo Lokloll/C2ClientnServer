@@ -13,7 +13,7 @@ int main() {
     string out;
 
     while(1==1){
-        string response = SendRequest::ParseResponse();
+        string response = SendRequesth::SendCommandRequest();
         if (out == "exit")
             break;
         else

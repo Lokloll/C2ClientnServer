@@ -6,15 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/ResponseParser.cpp
-string
--
-ResponseParser.h
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/ResponseParser.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h
 iostream
 -
-
-/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/ResponseParser.h
+stdexcept
+-
+stdio.h
+-
 string
+-
+
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.h
+
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp
+iostream
+-
+HTTP/SendRequest.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.h
+ExecCLIFunction.h
+/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h
+chrono
+-
+thread
 -
 
