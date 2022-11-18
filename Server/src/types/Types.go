@@ -1,4 +1,4 @@
-package main
+package types
 
 type Client struct {
 	ClientID             string
@@ -16,8 +16,4 @@ type ClientInfo struct {
 	UserName   string
 
 	DidCallIn bool
-}
-
-type Clients struct {
-	Clients []*Client
 }

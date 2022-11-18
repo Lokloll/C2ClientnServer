@@ -23,4 +23,3 @@ string SendRequesth::SendCommandRequest() {
     }
     return ResponseParser::InputString(output);
 }
-string SendRequesth::

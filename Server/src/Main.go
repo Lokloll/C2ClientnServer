@@ -1,6 +1,8 @@
 package main
 
+import "CSControlServer/fiber"
+
 func main() {
-	InitClientSystem()
-	InitServer()
+	fiber.InitNewClient()
+	fiber.InitServer()
 }
