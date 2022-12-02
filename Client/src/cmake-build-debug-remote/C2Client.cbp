@@ -97,6 +97,15 @@
 		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.h">
 			<Option target="C2CLIClient"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/Types.h">
+			<Option target="C2CLIClient"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/Utils/IPUtils.h">
+			<Option target="C2CLIClient"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/Utils/UtilsIF.h">
+			<Option target="C2CLIClient"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp">
 			<Option target="C2CLIClient"/>
 		</Unit>

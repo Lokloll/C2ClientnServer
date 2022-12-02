@@ -12,4 +12,6 @@ CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.o
 CMakeFiles/C2CLIClient.dir/main.cpp.o
  /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/ExecCLIFunction.h
  /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/HTTP/SendRequest.h
+ /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/Utils/IPUtils.h
+ /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/Utils/UtilsIF.h
  /mnt/c/Users/nicla/GolandProjects/CSControlServer/Client/src/main.cpp

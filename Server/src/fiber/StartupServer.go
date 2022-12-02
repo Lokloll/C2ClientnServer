@@ -2,25 +2,29 @@ package fiber
 
 import (
 	"CSControlServer/types"
-	"fmt"
 	"github.com/gofiber/fiber/v2"
 )
 
-var allagents types.Client
-
 func InitServer() {
+	agent := types.Client{}
 	responsecmd := "01"
 	app := fiber.New()
-
-	app.Post("/", func(ctx *fiber.Ctx) error {
-		file, _ := ctx.FormFile("./public/index.html")
-		return ctx.SaveFile(file, fmt.Sprintf("./%s", file.Filename))
-	})
+	app.Static("/", "../public")
+	app.Post("/", LoadcmdPostFile)
 	app.Get("/getcmd", func(ctx *fiber.Ctx) error {
 		return ctx.SendString(responsecmd)
 	})
+	app.Get("/newClient", func(ctx *fiber.Ctx) error {
+		//LoadcmdIDFile(ctx)
+		agent = InitNewClient(ctx, agent)
+		return ctx.SendString(PrintAgentsInfoCompact(agent))
+	})
+	app.Get("/DebugClient", func(ctx *fiber.Ctx) error {
+		return ctx.SendString("")
+	})
 
 	app.Get("/postcmd", func(ctx *fiber.Ctx) error {
+		LoadcmdPostFile(ctx)
 		responsecmd = ctx.FormValue("command")
 		return ctx.SendString(responsecmd)
 	})
@@ -29,7 +33,7 @@ func InitServer() {
 		return app.Shutdown()
 	})
 	app.Get("/getagents", func(ctx *fiber.Ctx) error {
-		return ctx.SendString(MakeAgentsInfoCompact())
+		return ctx.SendString(PrintAgentsInfoCompact(agent))
 	})
 	app.Get("/getdebug", func(ctx *fiber.Ctx) error {
 		return ctx.SendString(debug)

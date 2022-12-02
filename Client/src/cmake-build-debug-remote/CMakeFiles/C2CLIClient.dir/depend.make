@@ -11,5 +11,7 @@ CMakeFiles/C2CLIClient.dir/HTTP/SendRequest.cpp.o: ../HTTP/SendRequest.h
 
 CMakeFiles/C2CLIClient.dir/main.cpp.o: ../ExecCLIFunction.h
 CMakeFiles/C2CLIClient.dir/main.cpp.o: ../HTTP/SendRequest.h
+CMakeFiles/C2CLIClient.dir/main.cpp.o: ../Utils/IPUtils.h
+CMakeFiles/C2CLIClient.dir/main.cpp.o: ../Utils/UtilsIF.h
 CMakeFiles/C2CLIClient.dir/main.cpp.o: ../main.cpp
 

@@ -2,9 +2,9 @@ package types
 
 type Client struct {
 	ClientID             string
-	Active               bool
+	Active               string
 	Reason               string
-	HasRecievedFirstTask bool
+	HasRecievedFirstTask string
 
 	Clientinfos ClientInfo
 }
@@ -14,6 +14,4 @@ type ClientInfo struct {
 	ExternalIP string
 	HostName   string
 	UserName   string
-
-	DidCallIn bool
 }

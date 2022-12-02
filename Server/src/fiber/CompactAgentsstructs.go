@@ -1,13 +1,14 @@
 package fiber
 
 import (
+	"CSControlServer/types"
 	"encoding/json"
 )
 
 var debug = ""
 
-func MakeAgentsInfoCompact() string {
-	output, _ := json.MarshalIndent(allagents, "", "\t")
+func PrintAgentsInfoCompact(agent types.Client) string {
+	output, _ := json.MarshalIndent(agent, "", "\t")
 	debug = "output"
 	return string(output)
 }

@@ -10,12 +10,9 @@ string SendRequesth::SendCommandRequest() {
     cout<< "methexec"<<endl;
     try
     {
-        // you can pass http::InternetProtocol::V6 to Request to make an IPv6 request
         http::Request request{"http://WSLUP/getcmd"};
-        // send a get request
         const auto response = request.send("GET");
         output = {response.body.begin(), response.body.end()};
-
     }
     catch (const std::exception& e)
     {
